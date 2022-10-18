@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.mypro.Test.SearchResultPageTest">
+        <methods>
+          <include name="productAvailabilityTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.mypro.Test.SearchResultPageTest -->
+      <class name="com.mypro.Test.IndexTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyLogo"/>
+          <include name="verifyTitle"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.mypro.Test.IndexTest -->
+      <class name="com.mypro.Test.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.mypro.Test.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
