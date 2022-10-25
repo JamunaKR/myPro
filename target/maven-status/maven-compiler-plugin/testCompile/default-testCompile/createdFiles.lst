@@ -1,0 +1,8 @@
+com\mypro\Test\AccountCreationPageTest.class
+com\mypro\Test\HomePageTest.class
+com\mypro\Test\AddToCartTest.class
+com\mypro\Test\SearchResultPageTest.class
+com\mypro\Test\IndexTest.class
+com\mypro\Test\LoginPageTest.class
+com\mypro\Test\OrderPageTest.class
+com\mypro\Test\EndToEndTest.class

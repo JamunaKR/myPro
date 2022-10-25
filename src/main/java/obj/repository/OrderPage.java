@@ -52,9 +52,9 @@ public class OrderPage {
 		return finalTotalPrice; 														//here /100 becz we get in terms of 1651 [for 16.51]
 	}
 	
-	public LoginPage clickProceedToCheckout(WebDriver driver) throws Exception {
-		act.fluentWait(driver, proceedToCheckout, 20);
-		act.click(driver, getProceedToCheckout());
+	public LoginPage clickProceedToCheckout() throws Exception {
+		act.fluentWait(BaseClass.driver, proceedToCheckout, 20);
+		act.click(BaseClass.driver, getProceedToCheckout());
 		return new LoginPage();
 	}
 

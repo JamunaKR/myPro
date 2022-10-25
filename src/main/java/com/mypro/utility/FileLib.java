@@ -34,13 +34,15 @@ public class FileLib {
 		Workbook w=WorkbookFactory.create(fs);
 		Sheet s=w.getSheet(Sheet);
 		int rows=s.getLastRowNum();
+		System.out.println(rows);
 		int columns=s.getRow(1).getLastCellNum();
 		String [][] tab=new String[rows][columns];
-		for (int i = 0; i < rows; i++) {
+		for (int i = 0; i <rows; i++) {
 			for (int j = 0; j < columns; j++) {
 				tab[i][j]=s.getRow(i).getCell(j).toString();
 			}
 		}
+		System.out.println(tab.length);
 		return tab;
 	}
 	
